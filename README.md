@@ -1,1 +1,0 @@
-# aliwimo.github.io
