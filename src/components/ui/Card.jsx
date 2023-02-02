@@ -6,7 +6,7 @@ const Card = (props) => {
 
 const Style = styled.div`
 	width: 100%;
-	padding: 2rem 4rem;
+	padding: 2rem 2.5rem;
 	max-width: 720px;
 	margin: 0 auto;
 `;
