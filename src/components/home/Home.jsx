@@ -1,16 +1,33 @@
+import styled from "styled-components";
 import Name from "@/components/home/Name";
 import Contact from "@/components/home/Contact";
 import profileImage from "@/assets/profile.jpg"
-import "@/components/home/Home.scss";
 
-const HomeIndex = () => {
+const Home = () => {
 	return (
-		<div className="container">
-			<img className="profile" src={profileImage} alt="profile" />
+		<Style>
+			<img src={profileImage} alt="profile" />
 			<Name />
 			<Contact />
-		</div>
+		</Style>
 	);
 };
 
-export default HomeIndex;
+const Style = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+
+	img {
+		width: 80px;
+		border-radius: 50%;
+		border: 0.125rem solid var(--main-fg);
+	}
+`;
+
+export default Home;
