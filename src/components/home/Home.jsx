@@ -20,8 +20,7 @@ const Style = styled.div`
 	align-items: center;
 	gap: 0.5rem;
 	text-align: center;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 
 	img {
 		width: 80px;

@@ -1,4 +1,5 @@
-import SvgIcon from "../icons/SvgIcon";
+import palette from "@/assets/palette";
+import SvgIcon from "@/components/icons/SvgIcon";
 import styled from "styled-components";
 
 const Contact = () => {
@@ -58,20 +59,17 @@ const Style = styled.ul`
 			height: 100%;
 			margin: 0;
 			text-decoration: none;
-			color: var(--second-fg);
+			color: ${palette.dark.foreground.dimmed};
 			transition: all 400ms ease-out;
 
 			&:hover {
-				color: var(--main-fg);
-
 				svg {
-					opacity: 1;
+					fill: ${palette.dark.foreground.base};
 				}
 			}
 
 			svg {
-				fill: var(--main-fg);
-				opacity: 0.5;
+				fill: ${palette.dark.foreground.dimmed};
 				transition: all 400ms ease-out;
 			}
 		}
