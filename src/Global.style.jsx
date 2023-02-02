@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
 		font-family: 'Poppins', sans-serif;
 	}
 
+	html {
+		font-size: 12pt;
+	}
+
 	body {
 		margin: 0;
 		-webkit-font-smoothing: antialiased;
