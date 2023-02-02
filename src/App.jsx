@@ -1,15 +1,13 @@
-import Home from '@/components/home/Home';
-import Resume from '@/components/resume/Resume';
-import "@/main.scss";
+import Layout from "./components/Layout";
+import GlobalStyle from "@/Global.style";
 
 function App() {
-
-  return (
-    <div className="App">
-			<Home />
-			<Resume />
-    </div>
-  )
+	return (
+		<>
+			<GlobalStyle />
+			<Layout />
+		</>
+	);
 }
 
-export default App
+export default App;
