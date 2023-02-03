@@ -1,12 +1,14 @@
 import Title from "@/components/resume/Title";
 import Field from "./Field";
-import data from "./data.json";
+import Section from "@/components/ui/Section";
+import { education } from "@/assets/data";
+
 
 const Education = () => {
 	return (
-		<>
+		<Section>
 			<Title title="Education" />
-			{data.map((item) => {
+			{education.map((item) => {
 				return (
 					<Field
 						key={item.id}
@@ -18,7 +20,7 @@ const Education = () => {
 					/>
 				);
 			})}
-		</>
+		</Section>
 	);
 };
 
