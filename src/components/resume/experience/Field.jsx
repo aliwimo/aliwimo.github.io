@@ -6,7 +6,7 @@ const Field = (props) => {
 		<Style>
 			<div className="date">
 				<span className="from">{props.from}</span>
-				<span className="to">{props.to}</span>
+				<span className="to">{props.to ? props.to : "Present"}</span>
 			</div>
 			<div className="title">{props.title}</div>
 			<div className="org">{props.org}</div>

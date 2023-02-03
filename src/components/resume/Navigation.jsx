@@ -57,9 +57,9 @@ const Style = styled.ul`
 	justify-content: space-evenly;
 	align-items: center;
 	column-gap: 1rem;
-	background-color: ${palette.dark.background.darker};
 	padding: 0.75rem 1rem;
 	margin: 0;
+	border-bottom: 1px solid ${palette.dark.background.base};
 
 	li {
 		flex-grow: 1;
@@ -98,7 +98,7 @@ const Style = styled.ul`
 			&::after {
 				position: absolute;
 				content: "";
-				width: 1rem;
+				width: 1.5rem;
 				height: 2px;
 				border-radius: 50%;
 				background-color: ${palette.dark.foreground.base};

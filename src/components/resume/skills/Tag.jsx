@@ -17,7 +17,7 @@ const Style = styled.span`
 	flex-direction: row;
 	align-items: center;
 	gap: 0.5rem;	
-	background-color: ${palette.dark.background.dark};
+	background-color: ${palette.dark.background.darker};
 	padding: 0.125rem 0.75rem;
 	font-size: 0.9rem;
 	border-radius: 0.375rem;

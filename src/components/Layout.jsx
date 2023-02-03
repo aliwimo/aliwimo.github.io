@@ -1,16 +1,33 @@
 import { useState } from "react";
 import styled from "styled-components";
-import Home from "./home/Home";
-import Resume from "./resume/Resume";
 import palette from "@/assets/palette";
 import variables from "@/assets/variables";
+import Home from "@/components/home/Home";
+import Navigation from "@/components/resume/Navigation";
+import Education from "@/components/resume/education/Education";
+import Experience from "@/components/resume/experience/Experience";
+import Skills from "@/components/resume/skills/Skills";
 
 const Layout = () => {
 	const [resumeIsShown, setResumeIsShown] = useState(false);
+	const [currentSection, setCurrentSection] = useState("education");
 
 	const resumeToggleHandler = () => {
 		setResumeIsShown(!resumeIsShown);
 	};
+
+	const changeSectionHandler = (section) => {
+		setCurrentSection(section);
+	};
+
+	let section = <h3>Wrong Section!</h3>;
+	if (currentSection === "education") {
+		section = <Education />;
+	} else if (currentSection === "experience") {
+		section = <Experience />;
+	} else if (currentSection === "skills") {
+		section = <Skills />;
+	}
 
 	return (
 		<Style resumeIsShown={resumeIsShown}>
@@ -18,10 +35,15 @@ const Layout = () => {
 				<div className="main">
 					<Home />
 					<button type="button" onClick={resumeToggleHandler}>
-						Show Resume
+						{resumeIsShown ? "Hide" : "Show"} Resume
 					</button>
 				</div>
-				<div className="resume"><Resume /></div>
+				<div className="resume">
+					<div className="navigation">
+						<Navigation changeSectionHandler={changeSectionHandler} />
+					</div>
+					<div className="view">{section}</div>
+				</div>
 			</div>
 		</Style>
 	);
@@ -81,13 +103,21 @@ const Style = styled.div`
 		}
 
 		.resume {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
 			width: 65%;
 			height: 100%;
 			margin-left: 35%;
-			overflow-y: auto;
 			opacity: ${(props) => (props.resumeIsShown ? "1" : "0")};
 			transition: opacity ${variables.transitionDuration} ease-out;
 			z-index: 4;
+
+			.view {
+				flex: 1;
+				overflow-y: auto;
+			}
+
 		}
 	}
 `;
