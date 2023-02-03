@@ -17,7 +17,7 @@ const Field = (props) => {
 
 // styling
 const Style = styled.div`
-	margin-bottom: 2rem;
+	margin-bottom: 1.25rem;
 	color: ${palette.dark.foreground.base};
 
 	.date {
