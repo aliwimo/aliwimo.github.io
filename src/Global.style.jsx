@@ -23,6 +23,11 @@ const GlobalStyle = createGlobalStyle`
 		overflow: hidden;
 	}
 
+	ul {
+		margin: 0;
+		padding-left: 1rem;
+	}
+
 	input::-ms-reveal,
 	input::-ms-clear {
 		display: none;
