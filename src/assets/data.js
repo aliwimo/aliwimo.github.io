@@ -6,7 +6,7 @@ export const education = [
 			to: 2022
 		},
 		org: "Ondokuz Mayis University",
-		desc: "Presented Firefly Programming as a new supervised machine learning method that uses principles of symbolic regression to solve different regression-type problems."
+		desc: "Presented Firefly Programming as a new supervised machine learning method that uses principles of symbolic regression to solve different regression-type problems and has the ability to effectively analyze complex patterns and relationships in data."
 	},
 	{
 		title: "Bachelor's Degree in Computer Science & Engineering",
@@ -194,3 +194,32 @@ export const programmingSkills = [
 		icon: "",
 	},
 ];
+
+export const languageSkills = [
+	{
+		lang: "Arabic",
+		native: true,
+		skills: {
+			read_write: "native",
+			speak: "native",
+		}
+	},
+	{
+		lang: "English",
+		native: false,
+		skills: {
+			read_write: "advance",
+			speak: "advance",
+		}
+	},
+	{
+		lang: "Turkish",
+		native: false,
+		skills: {
+			read_write: "advance",
+			speak: "High-Intermediate",
+		}
+	},
+];
+
+
