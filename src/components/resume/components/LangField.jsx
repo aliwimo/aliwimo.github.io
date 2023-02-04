@@ -20,7 +20,6 @@ const LangField = (props) => {
 };
 
 const Style = styled.div`
-	width: 49%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

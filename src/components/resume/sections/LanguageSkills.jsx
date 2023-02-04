@@ -21,6 +21,7 @@ const Style = styled.div`
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 0.5rem;
+	column-gap: 5rem;
 `;
 
 export default LanguageSkills;

@@ -5,12 +5,14 @@ import { programmingSkills } from "@/assets/data";
 
 const ProgrammingSkills = () => {
 	return (
-		<Style>
+		<>
 			<Title title="Programming Skills" />
-			{programmingSkills.map((item, i) => {
-				return <Tag key={i} name={item.skill} icon={item.icon} />;
-			})}
-		</Style>
+			<Style>
+				{programmingSkills.map((item, i) => {
+					return <Tag key={i} name={item.skill} icon={item.icon} />;
+				})}
+			</Style>
+		</>
 	);
 };
 
