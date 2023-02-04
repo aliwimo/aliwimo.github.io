@@ -7,7 +7,6 @@ const Title = (props) => {
 const Style = styled.div`
 	width: 100%;
 	text-align: center;
-	margin-bottom: 1rem;
 	font-size: 0.9rem;
 `;
 
