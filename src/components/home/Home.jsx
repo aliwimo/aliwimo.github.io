@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Name from "@/components/home/Name";
 import Contact from "@/components/home/Contact";
 import profileImage from "@/assets/profile.jpg"
+import palette from "@/assets/palette";
 
 const Home = () => {
 	return (
@@ -25,7 +26,8 @@ const Style = styled.div`
 	img {
 		width: 80px;
 		border-radius: 50%;
-		border: 0.125rem solid var(--main-fg);
+		border: 0.125rem solid ${palette.dark.foreground.base};
+		user-select: none;
 	}
 `;
 

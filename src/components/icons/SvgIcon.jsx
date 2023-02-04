@@ -3,6 +3,7 @@ in this project, we are using hero icons 2.0
 icon names are same as presented in the official site.
 check icon-map.js file in assets folder to get names' map
 */
+import palette from "@/assets/palette";
 import styled from "styled-components";
 
 const Style = styled.span`
@@ -12,7 +13,7 @@ const Style = styled.span`
 
 	svg {
 		width: 1rem;
-		fill: white;
+		fill: ${palette.dark.foreground.base};
 	}
 `;
 

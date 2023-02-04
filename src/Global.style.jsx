@@ -32,10 +32,20 @@ const GlobalStyle = createGlobalStyle`
 		height: 0.25rem;
 	}
 	::-webkit-scrollbar-track {
-		background-color: ${palette.dark.background.base};
+		background-color: ${palette.dark.background.dark1};
 	}
 	::-webkit-scrollbar-thumb {
-		background-color: ${palette.dark.background.dark};
+		background-color: ${palette.dark.background.dark2};
+	}
+
+	::-moz-selection { /* Code for Firefox */
+		color: ${palette.dark.foreground.base};
+		background-color: ${palette.dark.primary};
+	}
+
+	::selection {
+		color: ${palette.dark.foreground.base};
+		background-color: ${palette.dark.primary};
 	}
 `;
 

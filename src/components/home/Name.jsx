@@ -1,3 +1,4 @@
+import palette from "@/assets/palette";
 import styled from "styled-components";
 
 const Name = () => {
@@ -17,7 +18,7 @@ const Style = styled.div`
 
 	.username {
 		font-size: 1rem;
-		color: var(--second-fg);
+		color: ${palette.dark.foreground.base};
 
 		&::before {
 			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -43,7 +44,7 @@ const Style = styled.div`
 	}
 
 	.description {
-		color: var(--second-fg);
+		color: ${palette.dark.foreground.dimmed};
 	}
 
 	@keyframes blink {
