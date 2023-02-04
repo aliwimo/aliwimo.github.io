@@ -11,17 +11,17 @@ const Contact = () => {
 				</a>
 			</li>
 			<li>
-				<a className="linkedin" href="https://www.linkedin.com/in/aliwimo/">
+				<a className="linkedin" href="https://www.linkedin.com/in/aliwimo/" target="_blank">
 					<SvgIcon name="linkedin" />
 				</a>
 			</li>
 			<li>
-				<a className="github" href="https://github.com/aliwimo">
+				<a className="github" href="https://github.com/aliwimo" target="_blank">
 					<SvgIcon name="github" />
 				</a>
 			</li>
 			<li>
-				<a className="twitter" href="https://twitter.com/aliwimo">
+				<a className="twitter" href="https://twitter.com/aliwimo" target="_blank">
 					<SvgIcon name="twitter" />
 				</a>
 			</li>
