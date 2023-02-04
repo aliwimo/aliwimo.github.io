@@ -1,11 +1,15 @@
 const palette = {
 	dark: {
 		background: {
-			lighter: "#505050",
-			light: "#494949",
-			base: "#242424",
-			dark: "#1b1b1b",
-			darker: "#161616",
+			light2: "#484848",
+			light2: "#3f3f3f",
+			light2: "#353535",
+			light1: "#292929",
+			base: "#212121",
+			dark1: "#1c1c1c",
+			dark2: "#1a1a1a",
+			dark3: "#141414",
+			dark4: "#111111",
 		},
 
 		foreground: {

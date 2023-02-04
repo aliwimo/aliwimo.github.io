@@ -38,7 +38,7 @@ const Style = styled.ul`
 	flex-direction: row;
 	gap: 0.5rem;
 	flex-wrap: wrap;
-	background-color: ${palette.dark.background.darker};
+	background-color: ${palette.dark.background.dark3};
 	border-radius: 0.675rem;
 	padding: 0 0.5rem;
 

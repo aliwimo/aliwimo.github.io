@@ -100,7 +100,7 @@ const Style = styled.ul`
 				content: "";
 				width: 1.5rem;
 				height: 2px;
-				border-radius: 50%;
+				border-radius: ${variables.borderRadius.sm};
 				background-color: ${palette.dark.foreground.base};
 				bottom: 0;
 			}

@@ -17,7 +17,7 @@ const Style = styled.div`
 		text-align: center;
 		cursor: pointer;
 		margin: 0 auto;
-		background-color: ${palette.dark.background.darker};
+		background-color: ${palette.dark.background.dark3};
 		color: ${palette.dark.foreground.dimmed};
 		padding: 0.5rem 0.75rem;
 		border-radius: 0.5rem;
@@ -49,7 +49,7 @@ const Style = styled.div`
 		max-width: 60rem;
 		border-radius: ${variables.borderRadius.lg};
 		overflow: hidden;
-		background-color: #1d1d1d;
+		background-color: ${palette.dark.background.dark1};
 
 		@media (max-width: ${variables.breakPoint.md}) {
 			max-width: unset;
@@ -67,7 +67,7 @@ const Style = styled.div`
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			background: #1f1f1f;
+			background: ${palette.dark.background.dark2};
 			transition: all ${variables.transitionDuration} ease-out;
 			width: ${(props) => (props.resumeIsShown ? "35%" : "100%")};
 			z-index: 5;
@@ -92,7 +92,7 @@ const Style = styled.div`
 			z-index: 4;
 
 			@media (max-width: ${variables.breakPoint.md}) {
-				background-color: ${palette.dark.background.base};
+				background-color: ${palette.dark.background.dark2};
 				position: fixed;
 				margin-left: 0;
 				width: 100%;
