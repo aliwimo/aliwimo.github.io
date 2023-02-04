@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Home from "@/components/home/Home";
-import Navigation from "@/components/resume/Navigation";
-import Education from "@/components/resume/education/Education";
-import Experience from "@/components/resume/experience/Experience";
-import Skills from "@/components/resume/skills/Skills";
+import Navigation from "@/components/resume/components/Navigation";
+import Education from "@/components/resume/sections/Education";
+import Experience from "@/components/resume/sections/Experience";
+import Skills from "@/components/resume/sections/Skills";
 import Style from "@/components/Layout.style";
 
 const Layout = () => {

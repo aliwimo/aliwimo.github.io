@@ -2,7 +2,7 @@ import palette from "@/assets/palette";
 import variables from "@/assets/variables";
 import { useState } from "react";
 import styled from "styled-components";
-import SvgIcon from "../icons/SvgIcon";
+import SvgIcon from "../../icons/SvgIcon";
 
 const Navigation = (props) => {
 	const [activeTab, setActiveTab] = useState("education");
