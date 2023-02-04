@@ -5,12 +5,14 @@ import { frontEndSkills } from "@/assets/data";
 
 const FrontEndSkills = () => {
 	return (
-		<Style>
+		<>
 			<Title title="Front-End Skills" />
-			{frontEndSkills.map((item, i) => {
-				return <Tag key={i} name={item.skill} icon={item.icon} />;
-			})}
-		</Style>
+			<Style>
+				{frontEndSkills.map((item, i) => {
+					return <Tag key={i} name={item.skill} icon={item.icon} />;
+				})}
+			</Style>
+		</>
 	);
 };
 
