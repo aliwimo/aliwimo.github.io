@@ -18,7 +18,7 @@ const Style = styled.div`
 
 	.username {
 		font-size: 1rem;
-		color: ${palette.dark.foreground.base};
+		color: ${palette.dark.foreground.dimmed};
 
 		&::before {
 			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

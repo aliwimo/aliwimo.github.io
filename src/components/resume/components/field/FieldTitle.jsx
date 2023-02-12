@@ -1,13 +1,23 @@
 import styled from "styled-components";
 import variables from "@/assets/variables";
 import palette from "@/assets/palette";
+import FieldLink from "@/components/resume/components/field/FieldLink";
 
 const FieldTitle = (props) => {
-	return <Style>{props.title}</Style>;
+	return (
+		<Style>
+			<span>{props.title}</span>
+			{props.link ? <FieldLink link={props.link} /> : null}
+		</Style>
+	);
 };
 
 const Style = styled.div`
 	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
 	font-size: 1.2rem;
 	font-weight: 500;
 	text-align: left;
