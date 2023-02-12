@@ -42,6 +42,24 @@ export const courses = [
 	},
 ];
 
+export const projects = [
+	{
+		title: "Symlearn: Machine Learning Python Package",
+		desc: "Symlearn is a python package that provides an API interface of different population-based optimization algorithms including Genetic Algorithm, Firefly Algorithm, Immune Plasma Algorithm, and others. symlearn uses the principles of symbolic regression to solve different regression problems that does not need any pre-specified model.",
+		link: "https://aliwimo.github.io/symlearn"
+	},
+	{
+		title: "Retail Frequent Pattern Finder",
+		desc: "Finding relation rules and frequent patterns in an online retail dataset can greatly improve the understanding of customer behavior and purchasing trends. By analyzing the relationships between various product categories and customer attributes, it is possible to uncover hidden patterns and correlations that can inform business decisions and marketing strategies.",
+		link: ""
+	},
+	{
+		title: "Backhaul-aware 3D UAV Placement Optimization",
+		desc: "A novel approach to unmanned aerial vehicle (UAV) placement in 3D environments that takes into consideration the backhaul network infrastructure. By using advanced algorithms and mathematical models, the solution analyzes the topology of the backhaul network and determines the optimal placement of UAVs to ensure efficient and reliable communication between the UAVs and the network taking into account factors such as network capacity, signal strength, and interference to improve UAV performance and achieve more efficient deployment.",
+		link: ""
+	},
+];
+
 export const workExperience = [
 
 	{
