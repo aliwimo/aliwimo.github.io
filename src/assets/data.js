@@ -6,7 +6,7 @@ export const education = [
 			to: 2022
 		},
 		org: "Ondokuz Mayis University",
-		desc: "Presented Firefly Programming as a new supervised machine learning method that uses principles of symbolic regression to solve different regression-type problems and has the ability to effectively analyze complex patterns and relationships in data."
+		desc: "Presented Firefly Programming as a new supervised machine learning method that solves different regression-type problems without the need to define a pre-specified model"
 	},
 	{
 		title: "Bachelor's Degree in Computer Science & Engineering",
@@ -19,6 +19,29 @@ export const education = [
 	}
 ];
 
+export const courses = [
+	{
+		title: "Machine Learning: Natural Language Processing",
+		date: "2022",
+		org: "Udemy",
+	},
+	{
+		title: "Data Cleaning & Preprocessing",
+		date: "2022",
+		org: "365 DataScience",
+	},
+	{
+		title: "React, The Complete Guide",
+		date: "2022",
+		org: "Udemy",
+	},
+	{
+		title: "Introduction to Big Data",
+		date: "2021",
+		org: "Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı (YTB)",
+	},
+];
+
 export const workExperience = [
 
 	{
@@ -29,16 +52,10 @@ export const workExperience = [
 		},
 		org: "WeenFee.com",
 		desc: [
-			"Design and implement intuitive, user-friendly interfaces for web applications using React and other front-end technologies.",
-			"Collaborate with product managers, designers, and back-end developers to create high-quality, responsive user experiences.",
+			"Design and implement intuitive, user-friendly interfaces for admin panel using React and other front-end technologies.",
 			"Translate wireframes and designs into functioning code, ensuring that interfaces are consistent, accessible, and optimized for performance.",
 			"Develop and maintain reusable components and libraries, and ensure that code is well-documented and easy to maintain.",
-			"Test and debug web applications to ensure that they are fully functional and free of errors.",
-			"Stay abreast of developments in UI/UX design and front-end development, and incorporate new technologies and techniques into your work as appropriate.",
 			"Provide ongoing support and maintenance for web applications, including fixing bugs, updating interfaces, and adding new features.",
-			"Communicate effectively with team members and stakeholders, including regular updates on project progress and addressing any concerns or questions.",
-			"Continuously improve your skills and knowledge, and seek out new opportunities to expand your portfolio and experience.",
-			"Collaborate with cross-functional teams to understand end-user requirements, and help inform the design and development of new features and functionality."
 		],
 	},
 	{
@@ -51,12 +68,7 @@ export const workExperience = [
 		desc: [
 			"Develop and implement a comprehensive media and digital communication strategy.",
 			"Create and distribute multimedia content, such as press releases, newsletters, and social media posts, to promote our organization's activities and events.",
-			"Manage our organization's website and social media accounts, ensuring that all content is accurate, up-to-date, and consistent with our brand image.",
-			"Oversee the collection, maintenance, and analysis of data, using relevant software and tools.",
-			"Develop and maintain databases, ensuring data accuracy and security.",
-			"Collaborate with other departments to identify and address information needs, and to implement effective solutions.",
-			"Ensure that our digital platforms are user- friendly and accessible, and provide training and support to staff and stakeholders as needed.",
-			"Keep abreast of developments in the field of media and informatics, and recommend new technologies and techniques as appropriate."
+			"Manage our organization's social media accounts, ensuring that all content is accurate, up-to-date, and consistent with our brand image.",
 		],
 	},
 	{
@@ -67,13 +79,10 @@ export const workExperience = [
 		},
 		org: "UOSSM NGO",
 		desc: [
-			"Develop and implement a strategy for the e-learning portal, in line with the organization's overall goals and objectives.",
-			"Manage the design and development of online courses, working with instructional designers and subject matter experts to ensure that content is engaging and effective.",
 			"Oversee the administration and maintenance of the e-learning portal, ensuring that it is user-friendly, accessible, and up-to-date.",
 			"Monitor student engagement and satisfaction, and make recommendations for improvements based on feedback and data analysis.",
 			"Stay abreast of developments in the field of e-learning, and incorporate new technologies and techniques into the portal as appropriate.",
 			"Manage relationships with third-party vendors, such as e-learning platform providers and content providers.",
-			"Collaborate with other departments to promote and market the e-learning portal, and to ensure that it is integrated with other aspects of the organization's operations."
 		]
 	},
 	{
@@ -84,16 +93,9 @@ export const workExperience = [
 		},
 		org: "Akçınar Bilgisayar",
 		desc: [
-			"Install, configure, and maintain computer hardware, software, and network systems.",
-			"Troubleshoot and resolve technical problems, both in-person and remotely.",
-			"Provide technical support and training to end-users.",
+			"Install, configure, and maintain computer hardware, software, network systems, and operating systems.",
 			"Maintain accurate and up-to-date records of hardware and software assets.",
-			"Install and configure operating systems, including Windows and Linux.",
 			"Install and maintain network equipment, such as routers, switches, and firewalls.",
-			"Perform routine maintenance and backups to ensure the stability and security of computer systems.",
-			"Provide after-hours support on a rotating basis, as needed.",
-			"Stay abreast of developments in the field of computer technology, and recommend new hardware and software as appropriate.",
-			"Collaborate with other IT staff to ensure the smooth and efficient operation of the organization's computer systems."
 		]
 	},
 	{
@@ -104,15 +106,12 @@ export const workExperience = [
 		},
 		org: "Freelance",
 		desc: [
-			"Develop and maintain websites and web applications for clients, using HTML, CSS, JavaScript, and other programming languages.",
 			"Collaborate with clients to gather requirements, and translate those requirements into functional and visually appealing web solutions.",
+			"Develop and maintain websites and web applications for clients, using Front-End different technologies including Vue, React, AngularJS, Vanilla JS and CSS Preprocessors.", 
+			"Provide and develope backend services mostly using Laravel framework.",
 			"Test and debug websites and web applications to ensure that they are fully functional and free of errors.",
-			"Stay abreast of developments in web development, and incorporate new technologies and techniques into your work as appropriate.",
 			"Provide ongoing support and maintenance for websites and web applications, including fixing bugs, updating content, and adding new features.",
 			"Manage multiple projects and clients, and prioritize tasks based on deadlines and client needs.",
-			"Communicate effectively with clients, including regular updates on project progress and addressing any concerns or questions.",
-			"Manage your own time and resources effectively, and work independently with minimal supervision.",
-			"Continuously improve your skills and knowledge, and seek out new opportunities to expand your portfolio and experience."
 		]
 	}
 ];
