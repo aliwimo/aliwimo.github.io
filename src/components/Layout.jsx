@@ -4,6 +4,7 @@ import Navigation from "@/components/resume/components/Navigation";
 import Education from "@/components/resume/sections/Education";
 import Experience from "@/components/resume/sections/Experience";
 import Skills from "@/components/resume/sections/Skills";
+import Projects from "@/components/resume/sections/Projects";
 import Style from "@/components/Layout.style";
 
 const Layout = () => {
@@ -18,14 +19,16 @@ const Layout = () => {
 		setCurrentSection(section);
 	};
 
-	let section = <h3>Wrong Section!</h3>;
+	let section = <h3 className="center">Wrong Section!</h3>;
 	if (currentSection === "education") {
 		section = <Education />;
 	} else if (currentSection === "experience") {
 		section = <Experience />;
 	} else if (currentSection === "skills") {
 		section = <Skills />;
-	}
+	} else if (currentSection === "projects") {
+		section = <Projects />;
+	} 
 
 	return (
 		<Style resumeIsShown={resumeIsShown}>

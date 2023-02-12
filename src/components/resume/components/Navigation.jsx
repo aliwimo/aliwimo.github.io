@@ -42,6 +42,15 @@ const Navigation = (props) => {
 				<SvgIcon name="skills" />
 				<span>Skills</span>
 			</li>
+			<li
+				className={activeTab === "projects" ? "active" : null}
+				onClick={() => {
+					changeTabHandler("projects");
+				}}
+			>
+				<SvgIcon name="projects" />
+				<span>Projects</span>
+			</li>
 		</Style>
 	);
 };
