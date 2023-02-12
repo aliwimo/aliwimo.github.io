@@ -8,7 +8,7 @@ const Field = (props) => {
 	return (
 		<Style>
 			<FieldDate date={props.date}/>
-			<FieldTitle title={props.title} />
+			<FieldTitle title={props.title} link={props.link} />
 			<FieldOrg org={props.org} />
 			{props.desc && <FieldDesc desc={props.desc} />}
 		</Style>
