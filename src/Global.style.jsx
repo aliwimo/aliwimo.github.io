@@ -52,6 +52,10 @@ const GlobalStyle = createGlobalStyle`
 		color: ${palette.dark.foreground.base};
 		background-color: ${palette.dark.primary};
 	}
+
+	.center {
+		text-align: center;
+	}
 `;
 
 export default GlobalStyle;
