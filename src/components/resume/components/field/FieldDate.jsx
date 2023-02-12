@@ -4,8 +4,16 @@ import palette from "@/assets/palette";
 const FieldDate = (props) => {
 	return (
 		<Style>
-			<span className="from">{props.date.from}</span>
-			<span className="to">{props.date.to ? props.date.to : "present"}</span>
+			{typeof props.date === "object" ? (
+				<>
+					<span className="from">{props.date.from}</span>
+					<span className="to">
+						{props.date.to ? props.date.to : "present"}
+					</span>
+				</>
+			) : (
+				<span className="to">{props.date}</span>
+			)}
 		</Style>
 	);
 };
