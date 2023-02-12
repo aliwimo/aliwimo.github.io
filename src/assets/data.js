@@ -19,6 +19,29 @@ export const education = [
 	}
 ];
 
+export const courses = [
+	{
+		title: "Machine Learning: Natural Language Processing",
+		date: "2022",
+		org: "Udemy",
+	},
+	{
+		title: "Data Cleaning & Preprocessing",
+		date: "2022",
+		org: "365 DataScience",
+	},
+	{
+		title: "React, The Complete Guide",
+		date: "2022",
+		org: "Udemy",
+	},
+	{
+		title: "Introduction to Big Data",
+		date: "2021",
+		org: "Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı (YTB)",
+	},
+];
+
 export const workExperience = [
 
 	{
