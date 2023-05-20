@@ -11,6 +11,7 @@ const Experience = () => {
 				return (
 					<Field
 						key={i}
+						notes={item.notes}
 						date={item.date}
 						title={item.title}
 						org={item.org}
