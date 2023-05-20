@@ -58,17 +58,38 @@ export const projects = [
 		desc: "A novel approach to unmanned aerial vehicle (UAV) placement in 3D environments that takes into consideration the backhaul network infrastructure. By using advanced algorithms and mathematical models, the solution analyzes the topology of the backhaul network and determines the optimal placement of UAVs to ensure efficient and reliable communication between the UAVs and the network taking into account factors such as network capacity, signal strength, and interference to improve UAV performance and achieve more efficient deployment.",
 		link: ""
 	},
+	{
+		title: "ScrapSpyder: Web Scraping Tool",
+		desc: "Python package that simplifies web scraping and file downloading from websites. It provides an intuitive API for navigating web pages, extracting data, and downloading files to the local machine.",
+		link: "https://github.com/aliwimo/scrapspyder"
+	}
+	
 ];
 
 export const workExperience = [
-
+	{
+		title: "Software Developer",
+		date: {
+			from: "Apr 2023",
+			to: ""
+		},
+		org: "Fabrikod",
+		desc: [
+			"Building frontend systems using Next.js, a popular framework for React applications.",
+			"Developing interactive and dynamic user interfaces with Next.js.",
+			"Utilizing Next.js features such as server-side rendering and static site generation for optimal performance.",
+			"Implementing data fetching from the backend APIs using Next.js's built-in API routes.",
+			"Ensuring smooth communication and integration between the Next.js frontend and PHP Laravel backend.",
+		],
+	},
 	{
 		title: "Front-End React Developer",
+		notes: "Part-Time",
 		date: {
 			from: "Aug 2022",
 			to: ""
 		},
-		org: "WeenFee.com",
+		org: "WeenFee",
 		desc: [
 			"Design and implement intuitive, user-friendly interfaces for admin panel using React and other front-end technologies.",
 			"Translate wireframes and designs into functioning code, ensuring that interfaces are consistent, accessible, and optimized for performance.",
@@ -118,14 +139,15 @@ export const workExperience = [
 	},
 	{
 		title: "Freelance Web Developer",
+		notes: "Freelance",
 		date: {
-			from: "Jan 2012",
-			to: ""
+			from: "Jan 2016",
+			to: "Apr 2023"
 		},
 		org: "Freelance",
 		desc: [
 			"Collaborate with clients to gather requirements, and translate those requirements into functional and visually appealing web solutions.",
-			"Develop and maintain websites and web applications for clients, using Front-End different technologies including Vue, React, AngularJS, Vanilla JS and CSS Preprocessors.", 
+			"Develop and maintain websites and web applications for clients, using Front-End different technologies including Vue, React, AngularJS, Vanilla JS and CSS Preprocessors.",
 			"Provide and develope backend services mostly using Laravel framework.",
 			"Test and debug websites and web applications to ensure that they are fully functional and free of errors.",
 			"Provide ongoing support and maintenance for websites and web applications, including fixing bugs, updating content, and adding new features.",
